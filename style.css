@@ -45,7 +45,11 @@ main p{
 footer {
     position: absolute;
     bottom: 0;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    align-items: center;
 }
 
 footer a {
